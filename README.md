@@ -68,3 +68,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+To start the project in a terminal: npm start
+
+DB IN NODE JS:
+To create the Project to Node Js: npm init -y 
+
+To install json server from a terminal: i json-server
+ 
+This is the DB
+Static DB: I Used MD5 to encription the password
+
+User 1: admin
+Pass: 12345
+
+User 2: aherrera
+Pass: 12345
+
+User 3: eportillo
+Pass: 23451
+
+User 4: vgarcia
+Pass: 54321
+
+To start the fake api in port 3001 in a terminal: npm start

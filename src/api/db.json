@@ -1,0 +1,36 @@
+{
+    "usuarios":[
+        {
+            "id": 1,
+            "apellido_paterno": "Project",
+            "apellido_materno": "Task",
+            "nombre": "Administrator",
+            "username": "admin",
+            "password": "827ccb0eea8a706c4c34a16891f84e7b"
+        },
+        {
+            "id": 2,
+            "apellido_paterno": "Herrera",
+            "apellido_materno": "Punay",
+            "nombre": "Antonio",
+            "username": "aherrera",
+            "password": "827ccb0eea8a706c4c34a16891f84e7b"
+        },
+        {
+            "id": 3,
+            "apellido_paterno": "Portillo",
+            "apellido_materno": "Pérez",
+            "nombre": "Edgar",
+            "username": "eportillo",
+            "password": "68d5b0923a8bb1387adfb044e105d512"
+        },
+        {
+            "id": 4,
+            "apellido_paterno": "García",
+            "apellido_materno": "López",
+            "nombre": "Víctor",
+            "username": "vgarcia",
+            "password": "01cfcd4f6b8770febfb40cb906715822"
+        }
+    ]
+}

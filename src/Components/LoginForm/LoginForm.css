@@ -9,9 +9,11 @@
     padding: 30px 40px;
 }
 
-.wrapper h1 {
-    font-size: 36px;
-    text-align: center;
+.wrapper img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
 }
 
 .wrapper .input-box {
