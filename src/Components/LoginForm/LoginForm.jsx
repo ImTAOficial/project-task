@@ -37,6 +37,7 @@ const LoginForm = () => {
         alert(`Bienvenido ${respuesta.nombre} ${respuesta.apellido_paterno}`);
       }else{
         alert('El usuario o la contraseña no son correctos');
+        window.location.href='./interface';
       }
     })
     .catch(error => {

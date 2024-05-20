@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginForm from './Components/LoginForm/LoginForm.jsx';
+import Interface from './Components/Interface/Interface.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<LoginForm />} />
+          <Route path="./Components/Interface/Interface" element={<Interface />} />
           {/* Aquí puedes agregar más rutas como esta:
           <Route path="/otra-ruta" element={<OtroComponente />} /> */}
         </Routes>
@@ -17,29 +19,3 @@ function App() {
 }
 
 export default App;
-
-/*import LoginForm from './Components/LoginForm/LoginForm.jsx';
-
-function App() {
-  return (
-    <div>
-      <LoginForm />
-    </div>
-  );
-}
-
-export default App;*/
-
-/*import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Interface from '../Interface/Interface';
-
-function Routes() {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path='/' component={Interface}/>
-      </Switch>
-    </BrowserRouter>
-  );
-}*/
