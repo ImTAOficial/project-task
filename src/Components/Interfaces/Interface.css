@@ -1,6 +1,44 @@
-/* Component.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: url('../Assets/background.jpg') no-repeat;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav div img {
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+nav div span {
+    color: white;
+    font-size: 30px;
+}
+
+nav button {
+    color: white;
+    background-color: rgb(66, 103, 158);
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+body {
+    background: url('../Assets/background.jpg') no-repeat;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 .project-form {
     max-width: 600px;
@@ -45,12 +83,12 @@
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #5cb85c;
+    background-color: #2a5286;
     color: white;
     cursor: pointer;
   }
   
   button[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: #b3852f;
   }
   
