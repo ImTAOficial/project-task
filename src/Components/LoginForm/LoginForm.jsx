@@ -35,9 +35,10 @@ const LoginForm = () => {
         cookies.set('apellido_materno', respuesta.apellido_materno, {path: '/'});
         cookies.set('nombre', respuesta.nombre, {path: '/'});
         alert(`Bienvenido ${respuesta.nombre} ${respuesta.apellido_paterno}`);
+        window.location.href='./Interfaces';
+
       }else{
         alert('El usuario o la contraseña no son correctos');
-        window.location.href='./interface';
       }
     })
     .catch(error => {

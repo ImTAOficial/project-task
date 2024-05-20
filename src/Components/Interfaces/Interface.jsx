@@ -4,7 +4,7 @@ const cookies = new Cookies();
 
 class Interface extends Component{
     render(){
-        console.log(cookies.get('id'));
+        console.log('id: '+cookies.get('id'));
         console.log('apellido_paterno: '+cookies.get('apellido_paterno'));
         console.log('apellido_materno'+cookies.get('apellido_materno'));
         console.log('nombre'+cookies.get('nombre'));
