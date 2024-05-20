@@ -70,7 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-To start the project in a terminal: npm start
 
 DB IN NODE JS:
 To create the Project to Node Js: npm init -y 
@@ -93,3 +92,7 @@ User 4: vgarcia
 Pass: 54321
 
 To start the fake api in port 3001 in a terminal: npm start
+
+
+To start the project in a terminal: npm start
+To create the routes: npm i react-router-dom
