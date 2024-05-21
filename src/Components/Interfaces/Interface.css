@@ -33,32 +33,38 @@ nav button {
     border-radius: 30px;
 }
 
+
 body {
     background: url('../Assets/background.jpg') no-repeat;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 .project-form {
-    max-width: 600px;
+    color: #ffffff;
+    max-width: 800px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(80px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .5);
     margin: 0 auto;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border-radius: 30px;
+    
   }
   
   .project-form h1 {
+    color: #ffffff;
     margin-bottom: 20px;
     text-align: center;
   }
   
   .form-group {
+    color: #ffffff;
     margin-bottom: 15px;
   }
   
   .form-group label {
+    
     display: block;
     margin-bottom: 5px;
   }
@@ -70,11 +76,12 @@ body {
   .form-group select {
     width: 100%;
     padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
+    border-radius: 30px;
+    border: 3px solid #169ab1;
   }
   
   .form-group textarea {
+    color: #000000;
     resize: vertical;
   }
   
@@ -82,13 +89,63 @@ body {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
     background-color: #2a5286;
     color: white;
     cursor: pointer;
   }
   
   button[type="submit"]:hover {
-    background-color: #b3852f;
+    background-color: #1294ff;
   }
+    
+  .Project-list h1 {
+    color: white;
+}
+
+
+  .Project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 70px;
+}
+
+
+.Project-list div {
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    padding: 20px;
+    width: calc(30% - 90px);
+    
+}
   
+.Project-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Project-list p {
+    margin-bottom: 10px;
+    
+}
+.Project-list button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.Project-list button:first-of-type {
+    background-color: green;
+}
+
+.Project-list button:last-of-type {
+    background-color: red;
+    
+}
